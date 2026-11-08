@@ -1,0 +1,66 @@
+/* 
+    Core Styles
+*/
+
+:root{
+    --primary-color:#e672fd;
+    --secondary-color: #ac5a02;
+    --accent-color:#f1fd1c;
+    --background-color:#08000a;
+    --text-color:#fbcdfe;
+}
+
+
+body{
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/* 
+    Header Section
+*/
+
+.header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.logo{
+    margin-left: 15%;
+    padding: 1rem;
+}
+
+
+
+.btn-section{
+    margin-right: 15%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.has-border{
+    border: 1px solid white;
+}
+
+
+
+.wrapper{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.title{
+    margin-top: 38%;
+}
+
+.card{
+    
+}
