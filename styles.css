@@ -37,8 +37,6 @@ body{
     padding: 1rem;
 }
 
-
-
 .btn-section{
     margin-right: 15%;
     justify-content: space-between;
@@ -51,7 +49,7 @@ body{
 
 
 
-.wrapper{
+.container{
     display: flex;
     height: 100%;
     width: auto;
